@@ -2,3 +2,8 @@
 
 
 Just an API for exercises purposes, it does a successfully non-persistent CRUD.
+
+## Tools
+- Express
+- Node.js
+- TypeScript
