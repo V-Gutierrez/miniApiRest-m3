@@ -5,9 +5,7 @@ const app = express();
 
 app.use(express.json());
 
-app.listen(8535, 'localhost', () => {
-  console.log('Running! @local 😍😍😍😍');
-});
+app.listen(process.env.PORT);
 
 interface Task {
   id: string;
