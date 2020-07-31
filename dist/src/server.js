@@ -10,7 +10,7 @@ app.use(express_1.default.json());
 app.listen(process.env.PORT);
 const list = [];
 app.get('/', (req, res) => {
-    res.status(200).json(list);
+    res.status(200).json({ list: list, author: 'Victor Gutierrez' });
 });
 app.get('/search', (req, res) => {
     const { title, content } = req.query;

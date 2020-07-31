@@ -17,7 +17,7 @@ interface Task {
 const list: Task[] = [];
 
 app.get('/', (req, res) => {
-  res.status(200).json(list);
+  res.status(200).json({ list: list, author: 'Victor Gutierrez' });
 });
 
 app.get('/search', (req, res) => {
