@@ -1,7 +1,7 @@
 # miniApiRest-m3
 
 
-Just an API for exercises purposes, it does a successfully non-persistent CRUD. It was good to learn how to deploy Node applications in Heroku
+Just an API for exercises purposes, it does a successful CRUD. It was good to learn how to deploy Node applications in Heroku
 
 ## Tools
 - Express
